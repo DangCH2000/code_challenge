@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+      "target": "es2015",       // Supports modern JavaScript features
+      "lib": ["es2015", "dom"], // Includes 'dom' for browser and 'console' support
+      "outDir": "./dist",       // Output directory for compiled JavaScript
+      "strict": true            // Enables strict type checking
+    },
+    "include": ["*.ts"]         // Includes all .ts files in the directory
+  }
+  
