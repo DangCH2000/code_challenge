@@ -1,7 +1,7 @@
 import { Router } from 'express';
 import {
   createResource,
-  getResources,
+  getAllResources,
   getResourceById,
   updateResource,
   deleteResource,
@@ -10,7 +10,7 @@ import {
 const router = Router();
 
 router.post('/', createResource);
-router.get('/', getResources);
+router.get('/', getAllResources);
 router.get('/:id', getResourceById);
 router.put('/:id', updateResource);
 router.delete('/:id', deleteResource);

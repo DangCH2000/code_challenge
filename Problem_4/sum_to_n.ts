@@ -39,8 +39,8 @@ function verify_sum_to_n() {
     console.log(`sum_to_n_c: ${resultC}`);
     // Check if all results match
     console.log(
-      `Results match: ${
-        resultA === resultB && resultB === resultC ? "PASS" : "FAIL"
+      `Results: ${
+        resultA === resultB && resultB === resultC ? "~PASS" : "~FAIL"
       }\n`
     );
   });
